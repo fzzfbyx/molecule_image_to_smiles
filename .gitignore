@@ -1,0 +1,10 @@
+/logs/Epoch34-Total_Loss3.8917-Val_Loss5.1063.pth
+*/__pycache__
+!.gitignore
+.ipynb_checkpoints
+__pycache__
+data/*
+vis/*
+blah/*
+log_fc/*
+log_fc1/*
