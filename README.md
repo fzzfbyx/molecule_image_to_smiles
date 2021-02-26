@@ -8,10 +8,15 @@
 # Requirements
 
 Python 3
+
 PyTorch 1.3+ (along with torchvision)
+
 cider (already been added as a submodule)
+
 coco-caption (already been added as a submodule) (Remember to follow initialization steps in coco-caption/README.md)
+
 yacs
+
 lmdbdict
 
 
@@ -33,14 +38,14 @@ lmdbdict
 
 # performance
 
-**0.4 accuarcy on 80000 test dataset
+**0.4 accuarcy on 80000 test dataset**
 
 
 # advancement
 
 **improve image feature extracting part by concatenating resnet101 and Vit features**
 
-**I found that many smiles mistakes due to some unclosed tokens like (,generate a smiles candidate list and use beam search to find the correct one**
+**I found that many smiles mistakes due to some unclosed tokens like ( so we can generate a smiles candidate list and use beam search to find the correct one**
 
 
 # code
